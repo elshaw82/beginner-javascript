@@ -76,3 +76,5 @@ button.addEventListener('click', function() {
 setTimeout(() => {
   console.log('DONE! Time to eat!');
 }, 1000);
+
+const add = (a, b = 3) => a + b;
